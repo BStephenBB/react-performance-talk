@@ -11,6 +11,8 @@ import {
   Search
 } from "./styles";
 
+console.log("hi");
+
 const Restaurant = React.memo(
   ({ id, image, deleteItem, rating, name, setRating }) => (
     <ItemWrapper>
